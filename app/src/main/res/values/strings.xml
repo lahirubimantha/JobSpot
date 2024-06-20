@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">JobSpot</string>
+
+    <!--Login,welcome and register pages-->
+    <string name="Welcome_page">Welcome to Job Portal</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="checkbox">Remember Me</string>
+    <string name="forgotpwd">Forgot Password?</string>
+    <string name="account">Dont have an account?</string>
+    <string name="haveaccount">Already have an account?</string>
+    <string name="register">Register</string>
+
+    <!--Home page-->
+    <string name="home_customer"><b>Customer</b></string>
+    <string name="home_supplier"><b>Supplier</b></string>
+    <string name="home_admin"><b>Admin</b></string>
+    <string name="home_donations"><b>Donations</b></string>
+
+    <!--form strings-->
+    <string name="username">  Username</string>
+    <string name="email">Email</string>
+    <string name="password"> Password</string>
+    <string name="retypepassword">Re-type Password</string>
+
+    <!--Buttons-->
+    <string name="update">Update</string>
+    <string name="Delete">Delete</string>
+    <string name="more"><b>More...</b></string>
+    <string name="add_btn"><b>Add</b></string>
+
+    <!--Add Job form-->
+    <string name="add"><b><u>Add Job/Task Form</u></b></string>
+    <string name="cancel_btn"><b>Cancel</b></string>
+    <string name="add_supplierID">Add supplierID</string>
+    <string name="add_supplierName">Add Supplier Name</string>
+    <string name="add_title">Add Job Title</string>
+    <string name="add_jobID">Add Job ID</string>
+    <string name="add_desc">Add Job Description</string>
+    <string name="add_salary">Add Job Salary</string>
+    <string name="add_contact">Add supplier Contact</string>
+
+    <!--Update form-->
+
+    <string name="update_supplier"><b><u>Update Supplier</u></b></string>
+    <string name="update_supplierID"> Edit SupplierID</string>
+    <string name="update_supplierName"> Edit Supplier Name</string>
+    <string name="update_jobtitle"> Edit JobRole</string>
+    <string name="update_jobID"> Edit JobID</string>
+    <string name="update_desc"> Edit Description</string>
+    <string name="update_salary"> Edit Salary</string>
+    <string name="update_contact"> Edit Supplier Contact</string>
+    <string name="update_confirm_btn"><b>Update</b></string>
+    <string name="btn_read"><b>Read Data</b></string>
+
+    <!--Read form-->
+    <string name="read_supplier">JobID</string>
+    <string name="read_title"><b><u>Read Supplier</u></b></string>
+    <string name="read_supplierID"><b>SupplierID</b></string>
+    <string name="read_supplierName"><b>Supplier Name</b></string>
+    <string name="read_jobtitle"><b>Job Title</b></string>
+    <string name="read_jobID"><b>Job ID</b></string>
+    <string name="read_jobDesc"><b>Job Description</b></string>
+    <string name="read_sjobSalary"><b>Salary</b></string>
+    <string name="read_contact"><b>Supplier Contact</b></string>
+
+    <!--Supplier Dashboard-->
+    <string name="supplier_dashboard_heading">Supplier Dashboard</string>
+
+    <!--Supplier home-->
+    <string name="supplier_home">Supplier Page</string>
+    <string name="supplier_home_mysupplies"><b>My Supplies</b></string>
+    <string name="supplier1_details">Mr.Andrew\nColombo\nandrew@gmail.com\n07772154654</string>
+    <string name="supplier1_job1">Job Title : Gardening\nDescrption : This is a daily working job.Anyone who is willing to apply contact me throgh my number or mail\nSalary : RS.2500/=</string>
+    <string name="supplier1_job2">Job Title : House keeping\nDescrption : This is a daily working job.Anyone who is willing to apply contact me throgh my number or mail\nSalary : RS.2500/=</string>
+    <string name="supplier1_job3">Job Title : Security\nDescrption : This is a daily working job.Anyone who is able to give proper security contact me throgh my number or mail\nSalary : RS.2500/=</string>
+    <string name="supply1">Name : Andrew\nAddress : Malabe\nEmail : Andrew@gmail.com\nContact No : 0772354321</string>
+
+</resources>

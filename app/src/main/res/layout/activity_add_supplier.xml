@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".add_supplier">
+
+    <TextView
+        android:id="@+id/addHeading"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="@string/add"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/addSupplierID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/add_supplierID" />
+
+    <EditText
+        android:id="@+id/addJobSupplierName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/add_supplierName" />
+
+    <EditText
+        android:id="@+id/addJobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/add_title" />
+
+    <EditText
+        android:id="@+id/addJobID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/add_jobID" />
+
+    <EditText
+        android:id="@+id/addJobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/add_desc" />
+
+    <EditText
+        android:id="@+id/addJobSalary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/add_salary" />
+
+    <EditText
+        android:id="@+id/addSupplierContact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/add_contact" />
+
+    <Button
+        android:id="@+id/btn_addSupplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundstyle"
+        android:text="@string/add_btn" />
+
+    <Button
+        android:id="@+id/btn_cancelAddSupplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundstyle"
+        android:text="@string/cancel_btn" />
+</LinearLayout>

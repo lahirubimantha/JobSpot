@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".activity_readsupplies">
+
+    <TextView
+        android:id="@+id/read_supplier"
+        android:layout_width="279dp"
+        android:layout_height="32dp"
+        android:text="@string/read_title"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_jobid"
+        android:layout_width="375dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Job ID"
+        android:drawableStart="@drawable/baseline_search_24"
+        android:drawablePadding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/read_supplier" />
+
+    <Button
+        android:id="@+id/btn_readSupply"
+        android:layout_width="390dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_style"
+        android:text="READ DATA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_jobid" />
+
+    <TextView
+        android:id="@+id/tv_supplierID"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="4dp"
+        android:text="SupplierID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_readSupply" />
+
+    <TextView
+        android:id="@+id/tv_supplierName"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginEnd="12dp"
+        android:text="Supplier Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_supplierID" />
+
+    <TextView
+        android:id="@+id/tv_jobTitle"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginEnd="16dp"
+        android:text="Job Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_supplierName" />
+
+    <TextView
+        android:id="@+id/tv_jobID"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Job ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jobTitle" />
+
+    <TextView
+        android:id="@+id/tv_jobDesc"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:layout_margin="5dp"
+        android:text="Job Description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jobID" />
+
+    <TextView
+        android:id="@+id/tv_jobSalary"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Job Salary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jobDesc" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Supplier Contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jobSalary" />
+
+    <TextView
+        android:id="@+id/tvTosupplierID"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/teal_200"
+        android:text="@string/read_supplierID"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_supplierID"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_readSupply" />
+
+    <TextView
+        android:id="@+id/tvTosupplierName"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:background="@color/purple_200"
+        android:text="@string/read_supplierName"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_supplierName"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTosupplierID" />
+
+    <TextView
+        android:id="@+id/tvTojobtitle"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/teal_200"
+        android:text="@string/read_jobtitle"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_jobTitle"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTosupplierName" />
+
+    <TextView
+        android:id="@+id/tvTojobdesc"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/teal_200"
+        android:text="@string/read_jobDesc"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_jobDesc"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTojobID" />
+
+    <TextView
+        android:id="@+id/tvTojobID"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/purple_200"
+        android:text="@string/read_jobID"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_jobID"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTojobtitle" />
+
+    <TextView
+        android:id="@+id/tvTojobsalary"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/purple_200"
+        android:text="@string/read_sjobSalary"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_jobSalary"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTojobdesc" />
+
+    <TextView
+        android:id="@+id/tvTosupcontact"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/teal_200"
+        android:text="@string/read_contact"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_contact"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTojobsalary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".update_supplier">
+
+    <TextView
+        android:id="@+id/update_supplier"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/update_supplier"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt_jobID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/read_supplier"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editsupplierID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/update_supplierID"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editSupplierName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/update_supplierName"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editJobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/update_jobtitle" />
+
+    <EditText
+        android:id="@+id/editJobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/update_desc" />
+
+    <EditText
+        android:id="@+id/editJobSalary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/update_salary" />
+
+    <EditText
+        android:id="@+id/editSupplierContact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/update_contact" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundstyle"
+        android:text="@string/update_confirm_btn" />
+
+</LinearLayout>
